@@ -1,0 +1,100 @@
+/*    
+		font-family: 'Days One', sans-serif;
+*/
+#services
+{
+	border-top: 1px solid #f2cc3d;
+	border-bottom: 1px solid #f2cc3d;
+	overflow: hidden;
+}
+
+#services #top
+{
+	margin-bottom: 35px;
+}
+
+#services p
+{
+	font-size: 14px;
+	line-height: 25px;
+}
+
+#services
+{
+	color: #2e3a54;
+}
+
+#services h1
+{
+	font-family: 'Days One', sans-serif;
+	font-size: 24px;	
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+
+h4
+{
+	font-family: 'Days One', sans-serif;
+	font-size: 14px;	
+}
+
+#services .leftBox
+{
+	width: 66%;
+	box-sizing: border-box;
+	float: left;
+	padding-right: 20px;
+}
+
+#services .rightBox
+{
+	width: 34%;
+	box-sizing: border-box;
+	float: left;
+}
+
+#services img
+{
+	float: left;
+	margin-right: 20px;
+}
+
+.post
+{
+	margin-bottom: 35px;
+}
+
+.post h4
+{
+	margin-bottom: 30px;
+}
+
+.upper, .lower
+{
+	border-left: 1px solid #f2cc3d;
+	padding-left: 15px;
+	line-height: 25px;
+	padding-bottom: 30px;
+}
+
+.upper
+{
+	border-bottom: 1px solid #f2cc3d;
+
+}
+
+.upper ul
+{
+	margin-left: 30px;
+}
+
+.lower
+{
+	padding-top: 40px;
+}
+
+.lower p
+{
+	margin-bottom: 35px;
+}

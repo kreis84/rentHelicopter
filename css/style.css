@@ -113,7 +113,7 @@ footer
 
 #sendMessage form input
 {
-	width: 350px;
+	width: 345px;
 	margin-bottom: 10px;
 	padding: 10px;
 	box-sizing: border-box;
@@ -121,9 +121,10 @@ footer
 
 #sendMessage form textarea
 {
+	width: 345px;
 	resize: none;
-	width: 350px;
 	height: 100px;
+	border: 0;
 }
 
 #sendMessage form [type=submit]
@@ -132,7 +133,7 @@ footer
 	height: 28px;
 	background: linear-gradient(#fdfdfd, #bdbdbd);
 	padding: 0;
-	margin-left: 118px;
+	margin-left: 116px;
 }
 
 #contactDetails h2
@@ -143,9 +144,11 @@ footer
 
 #contactDetails p
 {
+	line-height: 25px;
 	display: block;
 	width: 65px;
 	float: left;
+	font-size: 14px;
 }
 
 #contactDetails span
@@ -156,6 +159,7 @@ footer
 	width: 400px;
 	margin-bottom: 12px;
 	line-height: 25px;
+	font-size: 14px;
 }
 
 #contactDetails hr

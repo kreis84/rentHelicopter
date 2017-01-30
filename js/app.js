@@ -28,6 +28,10 @@ var APP = (function()
 			$('nav li').on('click', function(){ 
 						getSubpages($(this).attr('data-url'));
 					});
+
+
+			getSubpages('subpages/services.html');
+
 		}
 	}
 
