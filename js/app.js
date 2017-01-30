@@ -30,7 +30,7 @@ var APP = (function()
 					});
 
 
-			getSubpages('subpages/services.html');
+			getSubpages('subpages/rates.html');
 
 		}
 	}
