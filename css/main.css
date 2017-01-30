@@ -1,0 +1,130 @@
+#home
+{
+	color: #2e3a54;
+}
+
+#photoBox
+{
+	overflow: hidden;
+	box-shadow: 0px 42px 27px -33px rgba(0,0,0,0.75);
+}
+
+#photoBox img
+{
+	float: left;
+}
+
+#photoBox h1, #photoBox h4
+{
+	font-family: 'Days One', sans-serif;
+}
+
+#photoBox span
+{
+	padding-top: 30px;
+	padding-left: 20px;
+	display: block;
+	float: left;
+	width: 308px;
+}
+
+#photoBox span h1
+{
+	font-size: 36px;
+	margin-bottom: 15px;
+}
+
+#photoBox span h4
+{
+	font-size: 14px;
+	text-transform: uppercase;	
+	line-height: 22px;
+	margin-bottom: 15px;
+}
+
+#photoBox span p
+{
+	font-size: 14px;
+	line-height: 23px;
+}
+
+#lowerBox
+{
+	overflow: hidden;
+	border-top: 1px solid #f2cc3d;
+	border-bottom: 1px solid #f2cc3d;
+}
+
+#lowerBox p
+{
+	font-size: 14px;
+	line-height: 25px;
+}
+
+#lowerBox > section
+{
+	padding: 30px;
+	float: left;
+	box-sizing: border-box;
+}
+
+#lowerBox > section > h4 , .littleBox h4
+{
+	font-family: 'Days One', sans-serif;
+	margin-bottom: 15px;
+}
+
+#leftBox
+{	
+	width: 34%;
+	border-right: 1px solid #f2cc3d;
+}
+
+#rightBox
+{
+	width: 66%;
+}
+
+.post
+{
+	margin-bottom: 35px;
+}
+
+.post span
+{
+	font-size: 12px;
+}
+
+.post p
+{ 
+}
+
+#rightBox > p
+{
+	margin-bottom: 25px;
+}
+
+.littleBox
+{
+	width: 50%;
+	box-sizeing: border-box;
+	float: left;
+	margin-bottom: 30px;
+}
+
+#rightBox button
+{
+	background: linear-gradient(#fdfdfd, #bdbdbd);
+	width: 170px;
+	height: 35px;
+	border: 1px solid lightgrey;
+	font-weight: bold;
+	color: #2e3a54;
+}
+
+#rightBox button:hover
+{
+	color: black;
+	background: #bebcbc;
+	cursor: pointer;
+}
