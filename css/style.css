@@ -1,0 +1,66 @@
+/*    
+		font-family: 'Days One', sans-serif;
+*/
+
+*{
+	margin:0 ;
+	padding: 0;
+	font-family: arial;
+}
+
+header
+{
+	background-color: #6e010f;
+	color: white;
+}
+
+#headerCenter
+{
+	width: 960px;
+	margin: auto;
+	height: 150px;
+}
+
+#headerCenter > h1
+{
+	font-family: 'Days One', sans-serif;
+	font-size: 40px;
+	line-height: 120px;
+	vertical-align: center;
+}
+
+#headerCenter > nav ul
+{
+	width: 100%;
+	color: black;
+	
+	background: linear-gradient(#fdfdfd, #bdbdbd);
+	overflow: hidden;
+}
+
+#headerCenter > nav li
+{
+	float: left;
+	list-style-type: none;
+	height: 50px;
+	line-height: 50px;
+	vertical-align: center;
+	margin: auto;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0 53px;
+}
+
+#headerCenter > nav li:hover
+{
+	background-color: #bebcbc;
+	cursor: pointer;
+}
+
+main
+{
+	width: 960px;
+	margin: auto;
+	margin-top: 20px;
+	background-color: red;
+}
