@@ -195,3 +195,17 @@ footer
 {
 	background: url(../img/socialMediaHover3.png);
 }
+
+.inConstruction:hover
+{
+	color: lightgrey;
+	position: relative;
+}
+
+.inConstruction:hover::after
+{
+	color: red;
+	content: 'IN CONSTRUCTION';
+	position: absolute;
+	left: 10px;
+}
