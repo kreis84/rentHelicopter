@@ -181,17 +181,17 @@ footer
 	padding-top: 5px;
 }
 
-[name = twitter]:hover
+[alt = twitter]:hover
 {
 	background: url(../img/socialMediaHover1.png);
 }
 
-[name = facebook]:hover
+[alt = facebook]:hover
 {
 	background: url(../img/socialMediaHover2.png);
 }
 
-[name = google]:hover
+[alt = google]:hover
 {
 	background: url(../img/socialMediaHover3.png);
 }
